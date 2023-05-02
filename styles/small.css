@@ -106,6 +106,8 @@ footer div {
     margin: 0 auto;
     align-content: center;
     justify-items: center;
+    border-radius: 25px;
+    margin: 10px auto 0;
 }
 
 .assgnmt {
