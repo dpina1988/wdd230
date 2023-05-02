@@ -10,4 +10,18 @@
     h2 {
         font-family: 'Lato';
     }
+
+    header {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    img {
+        justify-self: left;
+    }
+
+    header h1 {
+        text-align: left;
+    }
+
+    
 }
