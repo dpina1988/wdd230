@@ -1,11 +1,11 @@
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif&display=swap');
 
-/*
+
 * {
     border: 2px solid blue;
 }
-*/
+
 
 body {
     max-width: 100%;
@@ -93,7 +93,7 @@ main {
 
 main h1,
 p {
-    text-align: left;
+    text-align: center;
 }
 
 nav {
