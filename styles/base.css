@@ -23,7 +23,8 @@ footer {
 }
 
 footer p {
-    color: #FFFF00;
+    font-family: 'Noto Serif';
+    color: #fff;
     font-size: 110%;
     text-align: center;
 }

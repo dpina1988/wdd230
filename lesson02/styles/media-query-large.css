@@ -1,4 +1,7 @@
-@media screen and (min-width: 500px) {}
+@media screen and (min-width: 500px) {
+    header {background-color: #e6f2ff}
+}
+
 
 header {
     background-color: black;
