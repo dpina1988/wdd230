@@ -8,18 +8,15 @@
 */
 
 body {
-    max-width: 100%;
-    margin: 100%;
     font-family: 'Lato', 'Noto Serif', sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 0 10px;
 }
 
 footer {
-    border-radius: 25px;
-    width: 75%;
-    margin: 10px auto 0;
+    text-align: center;
     background-color: #219ebc;
+    padding: 15px;
 }
 
 footer p {
@@ -49,14 +46,10 @@ hr {
 }
 
 header {
-    width: 75%;
     padding: 10px;
-    display: grid;
-    grid-template-columns: auto;
-    grid-gap: 25px;
+    display: flex;
     background-color: #219ebc;
-    border-radius: 25px;
-    margin: 10px auto 0;
+    justify-content: center;
 }
 
 header h1 {
@@ -87,9 +80,9 @@ li {
 }
 
 main {
-    width: 75%;
     margin: 0 auto;
     text-align: center;
+    
 }
 
 main h1,
@@ -98,11 +91,23 @@ p {
 }
 
 nav {
+    color: #000;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
     text-align: center;
-    display: grid;
-    row-gap: 25px;
-    width: 75%;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+} 
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
 }
 
 p {
