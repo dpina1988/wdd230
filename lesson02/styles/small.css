@@ -1,0 +1,123 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif&display=swap');
+
+/*
+* {
+    border: 2px solid blue;
+}
+*/
+
+body {
+    max-width: 100%;
+    margin: 100%;
+    font-family: 'Lato', 'Noto Serif', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    border-radius: 25px;
+    width: 75%;
+    margin: 10px auto 0;
+    background-color: #219ebc;
+}
+
+footer p {
+    color: #FFFF00;
+    font-size: 110%;
+    text-align: center;
+}
+
+h1,
+h2,
+a {
+    font-family: 'Lato';
+}
+
+h2 {
+    font-family: 'Noto Serif';
+    font-weight: bold;
+    font-size: 150%;
+    margin: auto auto;
+    text-align: center;
+}
+
+hr {
+    visibility: visible;
+    border: 1px solid #daa520;
+    width: 100%;
+}
+
+header {
+    width: 75%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 25px;
+    background-color: #219ebc;
+    border-radius: 25px;
+    margin: 10px auto 0;
+}
+
+header h1 {
+    align-self: center;
+    color: #FFFF;
+    margin: 10px auto;
+    margin-left: 30px;
+    text-align: left;
+}
+
+header img {
+    margin: 10px auto;
+}
+
+img {
+    height: 100px;
+    justify-self: center;
+    border: 05px solid #daa520;
+    margin-right: 30px;
+}
+
+li {
+    text-align: left;
+}
+
+li,
+p {
+    font-family: 'Noto Serif';
+}
+
+main {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main h1,
+p {
+    text-align: left;
+}
+
+p {
+    font-size: 150%;
+}
+
+ul {
+    list-style: hiragana;
+}
+
+footer div {
+    background-color: #219ebc;
+    color: #FFFF;
+    width: 300px;
+    margin: 0 auto;
+    align-content: center;
+    justify-items: center;
+    border-radius: 25px;
+    margin: 10px auto 0;
+}
+
+.assgnmt {
+    font-weight: bold;
+    font-size: 1.3em;
+}
