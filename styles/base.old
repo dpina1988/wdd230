@@ -4,27 +4,19 @@
 /*
 * {
     border: 2px solid blue;
-    
 }
 */
 
-* {
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Lato', 'Noto Serif', sans-serif;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    grid-template-rows: auto auto auto 1fr auto;
+    margin: 0;
+    padding: 0 10px;
 }
 
 footer {
     text-align: center;
     background-color: #219ebc;
-    color: white;
     padding: 15px;
-    grid-column: 1/3;
 }
 
 footer p {
@@ -35,7 +27,8 @@ footer p {
 }
 
 h1,
-h2 {
+h2,
+a {
     font-family: 'Lato';
 }
 
@@ -44,7 +37,6 @@ h2 {
     font-weight: bold;
     font-size: 150%;
     text-align: center;
-    grid-column: 1/-1;
 }
 
 hr {
@@ -58,8 +50,6 @@ header {
     display: flex;
     background-color: #219ebc;
     justify-content: center;
-    align-items: center;
-    grid-column: 1/3;
 }
 
 header h1 {
@@ -67,31 +57,32 @@ header h1 {
     color: #FFFF;
     margin: 10px auto;
     margin-left: 30px;
-    text-align: center;
+    text-align: left;
 }
 
 header img {
-    display: block;
-    width: 150px;
-    height: 150px;
-    margin-left: auto;
+    margin: 10px auto;
 }
 
 img {
+    height: 100px;
     justify-self: center;
     border: 05px solid #daa520;
+    margin-right: 30px;
 }
 
 li {
     text-align: left;
+}
+
+li {
     font-family: 'Noto Serif';
 }
 
 main {
     margin: 0 auto;
-    height: 100%;
-    width: 95%;
-    padding: 1rem;
+    text-align: center;
+    
 }
 
 main h1,
@@ -101,43 +92,52 @@ p {
 
 nav {
     color: #000;
-    grid-column: 1/3;
-}
-
-nav a {
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    padding: 1rem;
-}
-
-nav a:hover {
-    color: #daa520;
+    padding: 10px;
 }
 
 nav ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+} 
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
 }
 
-section a:hover {
-    color: #daa520;
+p {
+    font-size: 150%;
+}
+
+ul {
+    list-style: none;
+}
+
+footer div {
+    background-color: #219ebc;
+    color: #FFFF;
+    width: 400px;
+    margin: 0 auto;
+    align-content: center;
+    justify-items: center;
+    border-radius: 25px;
+    margin: 10px auto 0;
 }
 
 .card {
-    margin: 0;
-    width: 100%;
-}
-
-.card ul {
-    list-style-type: none;
-    line-height: 1.5;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
 }
 
 .nav_font {
     font-family: 'Noto Serif';
     color: black;
     text-decoration: none;
-    font-size: 115%;
+    font-size: 120%;
 }
