@@ -30,7 +30,7 @@
         display: block;
     }
 
-    section.map:nth-last-of-type(1) {
+    div:nth-last-of-type(1) {
         grid-column: span 2;
     }
 }
