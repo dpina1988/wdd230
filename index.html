@@ -16,16 +16,17 @@
     <meta property="og:url" content="https://dpina1988.github.io/wdd230/">
     <link rel="stylesheet" href="styles/normalize.css">
     <link href="styles/base.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
 
 <body>
     <header>
         <img src="images/diego_pina_picture.jpg" alt="Personal Picture">
         <h1>Diego R. Pina</h1>
+        <button id="menu"></button>
     </header>
 
-    <nav>
+    <nav class="navigation">
         <ul>
             <li><a href="#" class="nav_font">Home</a></li>
             <li><a href="lesson03/chamber-site-plan.html" class="nav_font">Site Plan</a></li>
@@ -77,6 +78,13 @@
             </ul>
             <hr>
         </section>
+
+        <section class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.269047224857!2d-43.308138025454426!3d-22.75539453247651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99706c289fc5a1%3A0xb5dab34fd504725c!2sR.%20Joaquim%20Jos%C3%A9%20Soares%2C%20360%20-%20Gramacho%2C%20Duque%20de%20Caxias%20-%20RJ%2C%2025035-250!5e0!3m2!1spt-BR!2sbr!4v1715220738412!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
     </main>
     <footer>
         <div>
@@ -88,7 +96,7 @@
             </p>
         </div>
     </footer>
-
+    <script src="scripts/hamburger.js"></script>
     <script src="scripts/getdates.js"></script>
 </body>
 
