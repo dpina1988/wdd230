@@ -1,0 +1,41 @@
+@media screen and (min-width: 768px) {
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-gap: 20px;
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .card ul {
+        margin: 0;
+    }
+
+    #menu {
+        display: none;
+    }
+
+   .navigation {
+    display: block;
+   }
+
+    div:nth-last-of-type(1) {
+        grid-column: span 2;
+    }
+}
