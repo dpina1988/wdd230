@@ -63,6 +63,7 @@ img {
     cursor: pointer;
 }
 
+/*
 #menu::before {
     content: "☰";
 }
@@ -70,7 +71,7 @@ img {
 #menu.open::before {
     content: "X";
 }
-
+*/
 .navigation {
     display: none;
 }
