@@ -18,7 +18,7 @@ body {
 
 header {
     background-color: #219ebc;
-    color: #ffffff;
+    color: #fff;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -30,7 +30,7 @@ header img {
 
 header h1 {
     margin-left: 20px;
-    color: #ffffff;
+    color: #fff;
 }
 
 h2 {
@@ -128,7 +128,7 @@ iframe {
 footer {
     background-color: #219ebc;
     text-align: center;
-    color: #ffffff;
+    color: #fff;
     padding: 20px;
 }
 
