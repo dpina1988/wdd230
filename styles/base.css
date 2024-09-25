@@ -21,7 +21,7 @@ body {
 }
 
 header {
-    background-color: #219ebc;
+    background-color: #000;
     color: #fff;
     padding: 20px;
     display: flex;
@@ -132,7 +132,7 @@ iframe {
 }
 
 footer {
-    background-color: #219ebc;
+    background-color: #000;
     text-align: center;
     color: #fff;
     padding: 20px;
