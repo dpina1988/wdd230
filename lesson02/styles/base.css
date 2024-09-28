@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif&display=swap');
+
+body {
+    font-family: 'Lato', 'Noto Serif', sans-serif;
+}
+
+footer {
+    text-align: center;
+}
+
+header, main, footer {
+    margin: 1rem auto;
+    border: 1px solid #cccccc;
+    padding: 1rem;
+    background-color: #1D4D72;
+}
+
+header, footer {
+    color: #ffffff
+}
+
+main {
+    display: grid;
+    gap:20px;
+}
+
+main a {
+    color: #000;
+    text-decoration: none;
+}
+
+section {
+    padding: 1rem;
+    background-color: #ffffff;
+}
+
+section img {
+    display: block;
+    width: 100%;
+}

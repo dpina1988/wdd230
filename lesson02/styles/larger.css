@@ -1,0 +1,19 @@
+@media (max-width: 600px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width: 601px) and (max-width: 900px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    section:nth-last-of-type(1)
+    {
+        grid-column: span 2;
+    }
+}
+@media (min-width: 901px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
