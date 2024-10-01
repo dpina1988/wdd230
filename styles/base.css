@@ -64,15 +64,15 @@ header img {
     cursor: pointer;
 }
 
-/*
 #menu::before {
     content: "☰";
+    color: #daa520;;
 }
 
 #menu.open::before {
     content: "X";
+    color: #daa520;
 }
-*/
 
 .navigation {
     display: none;
