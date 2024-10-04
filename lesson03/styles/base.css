@@ -1,0 +1,59 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif&display=swap');
+
+
+body {
+    font-family: 'Lato', 'Noto Serif', sans-serif;
+    background: #f0f0f0;
+    color: #181818;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Lato', 'Noto Serif', sans-serif;
+}
+
+main {
+    margin: 0px;
+    padding: 20px;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+
+header,
+footer {
+    background-color: #1D4D72;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.color-img {
+    display: block;
+    max-width: 790px;
+    width: 100%;
+}
+
+.desktop-wireframe-img {
+    display: block;
+    max-width: 739px;
+    width: 100%;
+}
+
+.mobile-wireframe-img {
+    display: block;
+    max-width: 362px;
+    width: 100%;
+}
