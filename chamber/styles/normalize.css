@@ -1,0 +1,77 @@
+@media (min-width: 576px) and (max-width: 767px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 15px;
+    }
+
+    header, footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #menu {
+		display: none; 
+	}
+
+    .navigation {
+        display: block;
+    }
+    
+    .discover-main {
+        grid-template-columns: 1fr; 
+    }
+
+    .discover-sidebar {
+        grid-column: 1 / 2;
+    }
+
+    .discover-main-content {
+        grid-column: 2 / 3;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .gallery img:hover {
+        transform: scale(1.05); 
+    }
+
+    figcaption {
+        font-size: 0.9em;
+    }
+
+    
+    .hero-content {
+        padding: 10px;
+        width: 90%; 
+    }
+    
+    .hero-content h1 {
+        font-size: 1.5em;
+    }
+    
+    .hero-content p {
+        font-size: 1em;
+    }
+    
+    .hero-content h1 {
+        display: block; 
+    }
+    
+    .btn {
+        padding: 8px 16px;
+        margin-top: 5px; 
+    }
+  
+    nav a.current {
+        border-top: 4px solid #ffffff;
+    }
+}
