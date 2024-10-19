@@ -15,6 +15,48 @@ body {
     color: #181818;
 }
 
+body.dark-mode {
+    background: #181818;
+    color: #ffffff;
+}
+
+body.dark-mode a {
+    color: #FFD700;
+}
+
+body.dark-mode a:hover {
+    color: #ffffff;
+}
+
+body.dark-mode header, body.dark-mode footer {
+    background-color: #222;
+    color: #ffffff;
+}
+
+body.dark-mode section {
+    background-color: #333;
+    color: #ffffff;
+}
+
+body.dark-mode nav a {
+    color: #ffffff;
+}
+
+body.dark-mode .btn {
+    background-color: #FFD700;
+    color: #1D4D72;
+}
+
+body.dark-mode .btn:hover {
+    background-color: #ffffff;
+    color: #1D4D72;
+}
+
+/*body.dark-mode .hero h2 {
+    color: #ffffff;
+}
+*/
+
 header,
 footer {
     background-color: #1D4D72;
@@ -87,6 +129,48 @@ nav a.current {
     color: #daa520;
 }
 
+.dark-mode-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.dark-mode-checkbox {
+    display: none;
+}
+
+.dark-mode-label {
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+    background-color: #ccc;
+    border-radius: 12px;
+    position: relative;
+    cursor: pointer;
+}
+
+.dark-mode-label::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.dark-mode-checkbox:checked + .dark-mode-label::after {
+    transform: translateX(26px);
+}
+
+.dark-mode-checkbox:checked + .dark-mode-label {
+    background-color: #1D4D72;
+}
+
 .hero {
     position: relative;
     text-align: center;
@@ -95,9 +179,31 @@ nav a.current {
     grid-column: 1/4;
 }
 
-.hero h2 {
-    color: #181818;
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
 }
+
+.hero-content h1, .hero-content p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); 
+    color: #ffffff;
+}
+
+.hero-content h1 {
+    display: none; 
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
 
 
 .spotlight {
