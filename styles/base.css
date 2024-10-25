@@ -141,19 +141,19 @@ footer {
     padding: 20px;
 }
 
+div {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
 .hero {
     margin-top: 20px;
     position: relative;
-    grid-column: 1/3;
-}
-
-div {
-    grid-row: -1/1;
 }
 
 .hero img {
     width: 100%;
-    height: 100%;
+    height: 50%;
     object-fit: cover;
 }
 
