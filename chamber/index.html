@@ -61,12 +61,18 @@
 
             </section>
 
-            <section id="weather-info">
+            <section class="weather-info">
                 <h2>Weather in Duque de Caxias</h2>
-                <p>Current Temperature: <span id="temperature"></span>°F</p>
-                <p>Current Wind Speed: <span id="wind-speed"></span> mph</p>
-                <p>Wind Chill: <span id="wind-chill"></span></p>
-
+                <div class="data-table">
+                    <span class="data-title">Temperature (°F):</span>
+                    <span class="data-value" id="current-temperature">93</span>
+                    <span class="data-title">Conditions:</span>
+                    <span class="data-value">Sunny</span>
+                    <span class="data-title">Wind (mph):</span>
+                    <span class="data-value" id="wind-speed">3</span>
+                    <span class="data-title">Wind Chill (°F):</span>
+                    <span class="data-value" id="wind-chill-value"></span>
+                </div>
             </section>
 
             <section class="spotlight">
