@@ -28,7 +28,8 @@ body.dark-mode a:hover {
     color: #ffffff;
 }
 
-body.dark-mode header, body.dark-mode footer {
+body.dark-mode header,
+body.dark-mode footer {
     background-color: #222;
     color: #ffffff;
 }
@@ -64,6 +65,11 @@ footer {
     padding: 10px 20px;
     text-align: center;
     font-family: 'Lato', sans-serif;
+}
+
+figcaption {
+    font-size: 0.9em;
+    padding-top: 5px;
 }
 
 footer a {
@@ -163,11 +169,11 @@ nav a.current {
     transition: transform 0.3s ease;
 }
 
-.dark-mode-checkbox:checked + .dark-mode-label::after {
+.dark-mode-checkbox:checked+.dark-mode-label::after {
     transform: translateX(26px);
 }
 
-.dark-mode-checkbox:checked + .dark-mode-label {
+.dark-mode-checkbox:checked+.dark-mode-label {
     background-color: #1D4D72;
 }
 
@@ -190,13 +196,14 @@ nav a.current {
     width: 80%;
 }
 
-.hero-content h1, .hero-content p {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); 
+.hero-content h2,
+.hero-content p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
     color: #ffffff;
 }
 
 .hero-content h1 {
-    display: none; 
+    display: none;
 }
 
 .hero img {
@@ -204,7 +211,9 @@ nav a.current {
     height: auto;
 }
 
-
+.logo {
+    width: 80px;
+}
 
 .spotlight {
     grid-column: 1/4;
@@ -212,6 +221,12 @@ nav a.current {
 
 #about-us {
     grid-column: 1/3;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 #menu::before {

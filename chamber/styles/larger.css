@@ -10,9 +10,14 @@
         gap: 20px;
     }
 
-    header, footer {
+    footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 150px 1fr 1fr;
     }
 
     #menu {

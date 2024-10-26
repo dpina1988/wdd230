@@ -23,6 +23,9 @@
     
     <body>
         <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/chamber_logo.webp" alt="Duque de Caxias Chamber of Comerce Logo">
+            </a>
             <h1>Duque de Caxias Chamber of Commerce</h1>
             <button id="menu"></button>
             <nav class="navigation">
@@ -42,13 +45,13 @@
         <main>
             <section class="hero">
                 <picture>
-                    <source srcset="images/duque-de-caxias-small.jpg" media="(max-width: 500px)">
-                    <source srcset="images/duque-de-caxias-medium.jpg" media="(max-width: 1000px)">
-                    <source srcset="images/duque-de-caxias-big.jpg" media="(max-width: 1500px)">
-                    <img src="images/duque-de-caxias-big.jpg" alt="Join to Ogden Chamber" width="1000" height="364">
+                    <source srcset="images/wdd230-org_small.jpg" media="(max-width: 500px)">
+                    <source srcset="images/wdd230-org_medium.jpg" media="(max-width: 1000px)">
+                    <source srcset="images/wdd230-org_large.jpg" media="(max-width: 1500px)">
+                    <img src="images/wdd230-org_large.jpg" alt="Join to Duque de Caxias Chamber" width="1000" height="364">
                 </picture>
                 <div class="hero-content">
-                    <h1>Duque de Caxias Chamber of Commerce</h1>
+                    <h2>Duque de Caxias Chamber of Commerce</h2>
                     <p>A place for networking and growth</p>
                 </div>
             </section>
@@ -60,7 +63,9 @@
 
             <section id="weather-info">
                 <h2>Weather in Duque de Caxias</h2>
-
+                <p>Current Temperature: <span id="temperature"></span>°F</p>
+                <p>Current Wind Speed: <span id="wind-speed"></span> mph</p>
+                <p>Wind Chill: <span id="wind-chill"></span></p>
 
             </section>
 
@@ -84,5 +89,6 @@
         <script src="scripts/getdates.js"></script>
         <script src="scripts/hamburger.js"></script>
         <script src="scripts/darkmode.js"></script>
+        <script src="scripts/windchill.js"></script>
     </body>
 </html>
