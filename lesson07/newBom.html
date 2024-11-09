@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Reis Pina - WDD 230 - Book of Mormon - Top 10</title>
+    <meta name="description"
+        content="WDD 230 - Web Frontend Development - Diego Reis Pina - Book of Mormon Top 10 assignment portal">
+    <meta name="author" content="Diego Reis Pina">
+
+    <meta property="og:title" content="Book of Mormon Top 10 project for WDD 230">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://noticias-pt.aigrejadejesuscristo.org/media/960x540/livromormon_idiomas.jpg">
+    <meta property="og:url" content="https://dpina1988.github.io/wdd230/">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+
+    <h1>📖 Book of Mormon - Top 10</h1>
+
+    <main>
+        <label for="favchap">Enter Book and Chapter: </label>
+
+        <input type="text" id="favchap" placeholder="Alma 5">
+        <button type="submit">Add Chapter</button>
+
+        <button id="clear">Clear All</button>
+        <ul id="list"></ul>
+    </main>
+
+    <script src="scripts/localStorage.js"></script>
+
+</body>
+
+</html>
