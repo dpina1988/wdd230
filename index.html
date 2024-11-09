@@ -87,11 +87,15 @@
         <section class="card">
             <h3>Information</h3>
             <hr>
-            <ul>
-                <li><a>Location</a></li>
-                <li><a>Weather</a></li>
-                <li><a>Page Visits</a></li>
-            </ul>
+            <div class="weather-content">
+                <h4>Duque de Caxias, Rio de Janeiro, Brazil</h4>
+                <p><span class="data-label">Conditions: </span><span id="conditions">Cloudy with rain</span> </p>
+                <p><span class="data-label">Temperature (°F): </span><span id="current-temperature">73</span></p>
+                <p><span class="data-label">Wind (mph): </span><span id="wind-speed">10</span></p>
+                <p><span class="data-label">Wind Chill (°F):  </span><span id="wind-chill-value"></span></p>
+                <p><span class="data-label">Humidity (%): </span>74</p>
+                <p><span class="data-label">Number of Visits: </span><span class="num-visits"></span></p>
+            </div>
             <hr>
         </section>
 
@@ -107,6 +111,8 @@
 
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/localStorage.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 
 </html>
