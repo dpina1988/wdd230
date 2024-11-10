@@ -178,6 +178,41 @@ nav a.current {
     background-color: #1D4D72;
 }
 
+.discover-main {
+    margin: 0px; 
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.discover-sidebar section {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.gallery figure {
+    margin: 0;
+    position: relative;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease; 
+}
+
+.gallery figcaption {
+    text-align: center;
+    margin-top: 10px;
+}
+
 .hero {
     position: relative;
     text-align: center;

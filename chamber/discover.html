@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Caxias: Your Guide to the Best of Duque de Caxias, RJ</title>
+    <meta name="description" content="Explore the best of Duque de Caxias, RJ with our comprehensive guide to local attractions, events, dining, and more. Discover what makes Duque de Caxias a great place to visit and work.">
+    <meta name="author" content="Diego Reis Pina">
+
+    <meta property="og:title" content="Discover Caxias: Your Guide to the Best of Duque de Caxias, RJ">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://www.gov.br/mdh/pt-br/assuntos/noticias/2022/eleicoes-2022-periodo-eleitoral/duque-de-caxias-rj-integra-o-sistema-nacional-de-promocao-da-igualdade-racial/whatsapp-image-2022-10-05-at-15-57-57.jpeg/@@images/76fd45c7-17a9-49fe-9633-82e55e66c571.jpeg">
+    <meta property="og:url" content="https://dpina1988.github.io/wdd230/chamber">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/chamber_logo.webp" alt="Duque de Caxias Chamber of Comerce Logo">
+        </a>
+        <h1>Duque de Caxias Chamber of Commerce</h1>
+        <button id="menu"></button>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
+            <div class="dark-mode-toggle">
+                <input type="checkbox" id="dark-mode" class="dark-mode-checkbox">
+                <label for="dark-mode" class="dark-mode-label"></label>
+            </div>
+        </nav>    
+    </header>
+
+    <main class="discover-main">
+        <aside class="discover-sidebar">
+            <section>
+                <h2>Welcome</h2>
+                <p id="visitMessage"></p>
+            </section>
+            <section id="weather-info">
+                <h2>Check the City Hall YouTube channel</h2>
+                <iframe width="420" height="315"
+                src="https://www.youtube.com/embed/Efr46BZ9GXQ">
+                </iframe> 
+            </section>
+            <section class="weather-info">
+                <h2>Weather in Duque de Caxias</h2>
+                <div class="data-table">
+                    <span class="data-title">Temperature (°F):</span>
+                    <span class="data-value" id="current-temperature">93</span>
+                    <span class="data-title">Conditions:</span>
+                    <span class="data-value">Sunny</span>
+                    <span class="data-title">Wind (mph):</span>
+                    <span class="data-value" id="wind-speed">3</span>
+                    <span class="data-title">Wind Chill (°F):</span>
+                    <span class="data-value" id="wind-chill-value"></span>
+                </div>
+            </section>
+        </aside>
+        <section class="discover-main-content">
+            <h2>Discover Duque de Caxias</h2>
+            <div class="gallery">
+                <figure>
+                    <picture>
+                        <source srcset="images/igreja_de_nossa_senhora_do_pilar_small.webp" media="(max-width: 400px)">
+                        <source srcset="images/igreja_de_nossa_senhora_do_pilar_medium.webp" media="(max-width: 800px)">
+                        <source srcset="images/igreja_de_nossa_senhora_do_pilar_large.webp" media="(max-width: 1200px)">
+                        <img src="images/Igreja_de_Nossa_Senhora_do_Pilar_Original.jpeg" alt="Nossa Senhora do Pilar Chruch" width="1200" height="800" loading="lazy">
+                    </picture>
+                    <figcaption>Historical Places. The Nossa Senhora do Pilar Mother Church was built in 1720.</figcaption>
+                </figure>
+                <figure>
+                    <picture>
+                        <source srcset="images/ojuoba-axe-small.webp" media="(max-width: 400px)">
+                        <source srcset="images/ojuoba-axe-medium.webp" media="(max-width: 800px)">
+                        <source srcset="images/ojuoba-axe-large.webp" media="(max-width: 1200px)">
+                        <img src="images/ojuoba-axe-original.jpeg" alt="Afro Cultural Group" width="1200" height="800" loading="lazy">
+                    </picture>
+                    <figcaption>Brazilian Culture. Founded in 1985, the Afro Cultural Group Ojuobá Axé's mission is to promote Afro-Brazilian culture and is based in Centenário, one of the main communities in the municipality of Duque de Caxias. </figcaption>
+                </figure>
+                <figure>
+                    <picture>
+                        <source srcset="images/museu-cev-small.webp" media="(max-width: 400px)">
+                        <source srcset="images/museu-cev-medium.webp" media="(max-width: 800px)">
+                        <source srcset="images/museu-cev-large.webp" media="(max-width: 1200px)">
+                        <img src="images/museu-cev-original.jpg" alt="The Science and Life Museum" width="1200" height="800" loading="lazy">
+                    </picture>
+                    <figcaption>Museums. The Science and Life Museum is located in the heart of the city of Duque de Caxias and has the mission of popularizing and spreading culture, science and art. The space houses various temporary exhibitions, a planetarium, auditoriums and rooms for workshops, such as robotics workshops, workshops for teachers, a film club, lectures, seminars, among others.</figcaption>
+                </figure>
+                <figure>
+                    <picture>
+                        <source srcset="images/sambaqui-small.webp" media="(max-width: 400px)">
+                        <source srcset="images/sambaqui-medium.webp" media="(max-width: 800px)">
+                        <source srcset="images/sambaqui-large.webp" media="(max-width: 1200px)">
+                        <img src="images/sambaqui-original.jpg" alt="Archeological Site" width="1200" height="800" loading="lazy">
+                    </picture>
+                    <figcaption>Archaeological sites. The Sambaqui do São Bento Archaeological Site is made up of hills of mollusc shells, crustacean carapaces, fish bones, birds and small mammals, which indicate how the first inhabitants, known as the “Sambaquis People”, of Duque de Caxias lived.</figcaption>
+                </figure>
+                <figure>
+                    <picture>
+                        <source srcset="images/artesanato-small.webp" media="(max-width: 400px)">
+                        <source srcset="images/artesanato-medium.webp" media="(max-width: 800px)">
+                        <source srcset="images/artesanato-large.webp" media="(max-width: 1200px)">
+                        <img src="images/artesanato-original.jpg" alt="Artisan Fair" width="1200" height="800" loading="lazy">
+                    </picture>
+                    <figcaption>Duque de Caxias Arts and Crafts Fair. The Artisan Fair has handcrafted products that will delight you and everyone you give a gift to.</figcaption>
+                </figure>
+                <figure>
+                    <picture>
+                        <source srcset="images/aeroclube-small.webp" media="(max-width: 400px)">
+                        <source srcset="images/aeroclube-medium.webp" media="(max-width: 800px)">
+                        <source srcset="images/aeroclube-large.webp" media="(max-width: 1200px)">
+                        <img src="images/aeroclube-original.jpeg" alt="Outstanding experiences" width="1200" height="800" loading="lazy">
+                    </picture>
+                    <figcaption>Outstanding experiences. A captive balloon flight takes place at the Aeroclube de Xerém. </figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p></p>
+            <p>Diego R. Pina | This is a project for WDD 230</p>
+            <p><span id="lastModified"></span></p>
+        </div>
+        <div>
+            <p>Contact Us: <a href="mailto:info@info.com">info@info.com</a></p>
+            <p>Follow Us: <a href="#" target="_blank">Facebook</a> | <a href="#" target="_blank">Instagram</a> | <a href="#"
+                target="_blank">X (Twitter)</a></p>
+                <p><span id="lastModified"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/lazyload.js"></script>
+    <script src="scripts/localStorage.js"></script>
+    <script src="scripts/windchill.js"
+</body>
+</html>
