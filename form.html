@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Reis Pina - WDD 230 - Form Build</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Diego Reis Pina - Form portal">
+    <meta name="author" content="Diego Reis Pina">
+
+    <meta property="og:title" content="Web Frontend project for WDD 230">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://www.gov.br/mdh/pt-br/assuntos/noticias/2022/eleicoes-2022-periodo-eleitoral/duque-de-caxias-rj-integra-o-sistema-nacional-de-promocao-da-igualdade-racial/whatsapp-image-2022-10-05-at-15-57-57.jpeg/@@images/76fd45c7-17a9-49fe-9633-82e55e66c571.jpeg">
+    <meta property="og:url" content="https://dpina1988.github.io/wdd230/">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="images/diego_pina_picture.jpg" alt="Personal Picture">
+        </picture>
+        <h1>Diego R. Pina</h1>
+        <button id="menu"></button>
+    </header>
+
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="form.html">Form Build</a></li>
+            <li><a href="lesson03/chamber-site-plan.html" target="_blank">Site Plan</a></li>
+            <li><a href="chamber/" target="_blank">Chamber</a></li>
+            <li><a href="https://www.byui.edu" target="_blank">BYU-Idaho</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/84?lang=eng&id=p20#p20"
+                    target="_blank">Scripture</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Form Page</h2>
+        <form action="record.html" method="get" class="userForm">
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" pattern="[A-Za-z0-9]{8,}" required
+                    title="Password must be at least 8 characters long and alphanumeric">
+            </div>
+
+            <div>
+                <label for="passwordConfirm">Confirm Password:</label>
+                <input type="password" id="passwordConfirm" name="passwordConfirm" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu" required
+                    title="A valid byui.edu email address">
+            </div>
+
+            <div>
+                <label for="pageRating">Page Rating:</label>
+                <input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1"
+                    oninput="updateRating(this.value)">
+                <span id="ratingValue">5</span>
+            </div>
+
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="copyright">Year</span> Diego Reis Pina, Rio de Janeiro</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/form.js"></script>
+
+</body>
+
+</html>
