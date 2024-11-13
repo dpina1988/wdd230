@@ -1,0 +1,30 @@
+{
+    "wardInformation": {
+        "familyName": "Silva",
+        "moveInDate": "2024-04-25",
+        "numberOfPeople": 7,
+        "visitedByBishopric": true,
+        "familyMembers": [
+            {
+                "name": "Arnaldo Silva",
+                "gender": "Male",
+                "birthdate": "1988-01-29"
+            },
+            {
+                "name": "Maria Silva",
+                "gender": "Female",
+                "birthdate": "1991-08-10"
+            },
+            {
+                "name": "Ana Silva",
+                "gender": "Female",
+                "birthdate": "2015-03-30"
+            },
+            {
+                "name": "Daniel Silva",
+                "gender": "Male",
+                "birthdate": "2015-03-30"
+            }
+        ]
+    }
+}
