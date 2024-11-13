@@ -1,0 +1,126 @@
+{
+  "lessons": [
+    {
+      "lesson": "01",
+      "links": [
+        {
+          "url": "week01/holygrail.html",
+          "title": "Holygrail Page"
+        }
+      ]
+    },
+    {
+      "lesson": "02",
+      "links": [
+        {
+          "url": "lesson02/design.html",
+          "title": "Design Principles"
+        },
+        {
+          "url": "lesson02/media-query.html",
+          "title": "Media Query"
+        },
+        {
+          "url": "lesson02/design-principles.html",
+          "title": "Design Principles Document"
+        }
+      ]
+    },
+    {
+      "lesson": "03",
+      "links": [
+        {
+          "url": "images/css_combinators.PNG",
+          "title": "CSS Combinators"
+        },
+        {
+          "url": "https://codepen.io/dpina_88/pen/mdNeNBo",
+          "title": "CSS Pseudo-elements"
+        },
+        {
+          "url": "https://codepen.io/dpina_88/pen/LYwpweB",
+          "title": "Responsive Menu"
+        }
+      ]
+    },
+    {
+      "lesson": "04",
+      "links": [
+        {
+          "url": "https://codepen.io/dpina_88/pen/mdNEzXY",
+          "title": "CSS Pseudo-Classes"
+        }
+      ]
+    },
+    {
+      "lesson": "05",
+      "links": [
+        {
+          "url": "lesson05/bom.html",
+          "title": "BOM - Top 10 Page"
+        }
+      ]
+    },
+    {
+      "lesson": "06",
+      "links": [
+        {
+          "url": "lesson06/images/landscape.webp",
+          "title": "WebP"
+        },
+        {
+          "url": "lesson06/responsive-images.html",
+          "title": "Responsive Images"
+        }
+      ]
+    },
+    {
+      "lesson": "07",
+      "links": [
+        {
+          "url": "lesson07/lazyload.html",
+          "title": "Lazy Load"
+        },
+        {
+          "url": "lesson07/newBom.html",
+          "title": "New BOM"
+        }
+      ]
+    },
+    {
+      "lesson": "08",
+      "links": [
+        {
+          "url": "lesson08/tablebuild.html",
+          "title": "HTML Tables"
+        },
+        {
+          "url": "lesson08/index.html",
+          "title": "HTML Forms"
+        }
+      ]
+    },
+    {
+      "lesson": "09",
+      "links": [
+        {
+          "url": "lesson09/new-ward-members.json",
+          "title": "Json File"
+        },
+        {
+          "url": "lesson09/prophets.html",
+          "title": "Prophets Page"
+        }
+      ]
+    },
+    {
+      "lesson": "10",
+      "links": [
+        {
+          "url": "",
+          "title": ""
+        }
+      ]
+    }
+  ]
+}
