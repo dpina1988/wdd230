@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Duque de Caxias Chamber of Commerce</title>
+        <meta name="description"
+            content="Duque de Caxias Chamber of Commerce assignment portal">
+        <meta name="author" content="Diego Reis Pina">
+
+        <meta property="og:title" content="Duque de Caxias Chamber of Commerce project for WDD 230">
+        <meta property="og:type" content="website">
+        <meta property="og:image"
+            content="https://www.gov.br/mdh/pt-br/assuntos/noticias/2022/eleicoes-2022-periodo-eleitoral/duque-de-caxias-rj-integra-o-sistema-nacional-de-promocao-da-igualdade-racial/whatsapp-image-2022-10-05-at-15-57-57.jpeg/@@images/76fd45c7-17a9-49fe-9633-82e55e66c571.jpeg">
+        <meta property="og:url" content="https://dpina1988.github.io/wdd230/chamber">
+
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/larger.css">
+        <link rel="icon" href="images/favicon.ico">
+    </head>
+    
+    <body>
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/chamber_logo.webp" alt="Duque de Caxias Chamber of Comerce Logo">
+            </a>
+            <h1>Duque de Caxias Chamber of Commerce</h1>
+            <button id="menu"></button>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html" class="current">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+                <div class="dark-mode-toggle">
+                    <input type="checkbox" id="dark-mode" class="dark-mode-checkbox">
+                    <label for="dark-mode" class="dark-mode-label"></label>
+                </div>
+            </nav>    
+        </header>
+
+        <main>
+
+            <section id="directory">
+                <div class="view-toggle">
+                    <button id="grid-view">⏹️Grid View</button>
+                    <button id="list-view">📄List View</button>
+                </div>
+                <div id="members" class="grid-view"></div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div>
+                <p></p>
+                <p>Diego R. Pina | This is a project for WDD 230</p>
+                <p><span id="lastModified"></span></p>
+            </div>
+            <div>
+                <p>Contact Us: <a href="mailto:info@info.com">info@info.com</a></p>
+                <p>Follow Us: <a href="#" target="_blank">Facebook</a> | <a href="#" target="_blank">Instagram</a> | <a href="#"
+                    target="_blank">X (Twitter)</a></p>
+            </div>
+        </footer>
+
+        <script src="scripts/getdates.js"></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/darkmode.js"></script>
+        <script src="scripts/directory.js"></script>
+    </body>
+</html>

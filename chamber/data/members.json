@@ -1,0 +1,65 @@
+[
+    {
+        "name": "JR CONTEINER",
+        "address": "Rua do Bosque - Vila Maria Helena ",
+        "phone": "+55 (21) 96468-7915",
+        "website": "http://www.jrcontainer.com/",
+        "image": "jrconteiner.webp",
+        "membershipLevel": "Membership: Caxiense",
+        "description": "JR Conteiner is a company that has specialized in selling containers in Rio de Janeiro for over 30 years."
+    },
+    {
+        "name": "NITRIFLEX",
+        "address": "Rua Pastor Manuel Avelino de Souza, 1.300 - Vila Santa Alice",
+        "phone": "+55 (21) 2128-3400",
+        "website": "https://www.nitriflex.com.br/",
+        "image": "nitriflex.webp",
+        "membershipLevel": "Membership: Saracuruna",
+        "description": "Nitriflex produces elastomers for the automotive, construction, footwear, food and textile industries, among many other products. "
+    },
+    {
+        "name": "LOJAS COMPETIÇÃO",
+        "address": "Rodovia Washington Luiz, 18315, Quadra03 Lote 16/17 - Santa Cruz da Serra",
+        "phone": "+55 (21) 2645-9700",
+        "website": "https://www.lojascompeticao.com.br/",
+        "image": "competicao.webp",
+        "membershipLevel": "Membership: Saracuruna",
+        "description": "Lojas Competição operates in the furniture retail trade throughout the city through its accredited stores."
+    },
+    {
+        "name": "PERSONAL SERVICE RECURSOS HUMANOS",
+        "address": "Rua Almirante Grenfall, 405, Bloco 3 Sala 604 - Parque Duque",
+        "phone": "+55 (21) 3993-2811",
+        "website": "https://www.personalservice.com.br/",
+        "image": "personal.webp",
+        "membershipLevel": "Membership: Gramacho",
+        "description": "Perosonal Service operates in the selection and agency of labor by offering modular and flexible solutions in various segments."
+    },
+    {
+        "name": "AGILE CORP",
+        "address": "Estrada Sao Lourenco - Chacaras Rio-Petrópolis",
+        "phone": "+55 (21) 3849-4938",
+        "website": "https://agilecorp.com.br/",
+        "image": "agile-corp.webp",
+        "membershipLevel": "Membership: Imbariê",
+        "description": "Agile Corp is a company that provides specialized services, focusing on excellence and always seeking innovative solutions tailored to the needs of its clients."
+    },
+    {
+        "name": "BRACCO IMAGING DO BRASIL IMPORTACAO E DISTRIBUICAO DE MEDICAMENTOS",
+        "address": "Avenida Ol 3, 200, Galpaomodulo 03 Galpao 01 - Parque Duque",
+        "phone": "+55 (21) 3849-4938",
+        "website": "https://www.bracco.com/pt-br",
+        "image": "bracco.webp",
+        "membershipLevel": "Membership: Caxiense",
+        "description": "Bracco's main objective is to develop safe and reliable contrast media; medical substances designed to increase contrast or distinction between the different tissues of the body."
+    },
+    {
+        "name": "PLAYVENDER DO BRASIL",
+        "address": "Avenida Ana Dantas, 183, Area 5 A1 Alameda 5 - Mantiquira",
+        "phone": "+55 (21) 3797-7777",
+        "website": "https://www.playvender.com.br/rio-de-janeiro",
+        "image": "playvender.webp",
+        "membershipLevel": "Membership: Saracuruna",
+        "description": "Playvender do Brasil plans to be the most efficient and profitable distributor in the Brazilian market based on the excellence of our services and the effectiveness of our employees."
+    }
+]
