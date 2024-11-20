@@ -116,6 +116,10 @@ main {
     padding-bottom: 20px;
 }
 
+section p {
+    margin: 2.5rem;
+}
+
 section ul {
     list-style-type: none;
 }
