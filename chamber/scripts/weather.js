@@ -2,9 +2,9 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('#weather-caption');
 const forecastContainer = document.getElementById('forecast');
 
-const apiKey = 'f1e4724e026dcc151e3a64148f8f78e3';
-const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=41.22288&lon=-111.97686&units=imperial&appid=${apiKey}`;
-const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=41.22288&lon=-111.97686&units=imperial&appid=${apiKey}`;
+const apiKey = 'ab520e4710bc7b1e7a9253788f49f215';
+const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=-22.786&lon=-43.312&units=imperial&appid=${apiKey}`;
+const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=-22.786&lon=-43.312&units=imperial&appid=${apiKey}`;
 
 document.addEventListener('DOMContentLoaded', () => {
     apiFetch();

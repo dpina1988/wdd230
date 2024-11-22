@@ -1,102 +1,110 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Duque de Caxias Chamber of Commerce</title>
-        <meta name="description"
-            content="Duque de Caxias Chamber of Commerce assignment portal">
-        <meta name="author" content="Diego Reis Pina">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duque de Caxias Chamber of Commerce</title>
+    <meta name="description" content="Duque de Caxias Chamber of Commerce assignment portal">
+    <meta name="author" content="Diego Reis Pina">
 
-        <meta property="og:title" content="Duque de Caxias Chamber of Commerce project for WDD 230">
-        <meta property="og:type" content="website">
-        <meta property="og:image"
-            content="https://www.gov.br/mdh/pt-br/assuntos/noticias/2022/eleicoes-2022-periodo-eleitoral/duque-de-caxias-rj-integra-o-sistema-nacional-de-promocao-da-igualdade-racial/whatsapp-image-2022-10-05-at-15-57-57.jpeg/@@images/76fd45c7-17a9-49fe-9633-82e55e66c571.jpeg">
-        <meta property="og:url" content="https://dpina1988.github.io/wdd230/chamber">
+    <meta property="og:title" content="Duque de Caxias Chamber of Commerce project for WDD 230">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://www.gov.br/mdh/pt-br/assuntos/noticias/2022/eleicoes-2022-periodo-eleitoral/duque-de-caxias-rj-integra-o-sistema-nacional-de-promocao-da-igualdade-racial/whatsapp-image-2022-10-05-at-15-57-57.jpeg/@@images/76fd45c7-17a9-49fe-9633-82e55e66c571.jpeg">
+    <meta property="og:url" content="https://dpina1988.github.io/wdd230/chamber">
 
-        <link rel="stylesheet" href="styles/normalize.css">
-        <link rel="stylesheet" href="styles/base.css">
-        <link rel="stylesheet" href="styles/larger.css">
-        <link rel="icon" href="images/favicon.ico">
-    </head>
-    
-    <body>
-        <header>
-            <a id="logo_link" href="index.html">
-                <img class="logo" src="images/chamber_logo.webp" alt="Duque de Caxias Chamber of Comerce Logo">
-            </a>
-            <h1>Duque de Caxias Chamber of Commerce</h1>
-            <button id="menu"></button>
-            <nav class="navigation">
-                <ul>
-                    <li><a href="index.html" class="current">Home</a></li>
-                    <li><a href="discover.html">Discover</a></li>
-                    <li><a href="directory.html">Directory</a></li>
-                    <li><a href="join.html">Join</a></li>
-                </ul>
-                <div class="dark-mode-toggle">
-                    <input type="checkbox" id="dark-mode" class="dark-mode-checkbox">
-                    <label for="dark-mode" class="dark-mode-label"></label>
-                </div>
-            </nav>    
-        </header>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
 
-        <main>
-            <section class="hero">
-                <picture>
-                    <source srcset="images/wdd230-org_small.jpg" media="(max-width: 500px)">
-                    <source srcset="images/wdd230-org_medium.jpg" media="(max-width: 1000px)">
-                    <source srcset="images/wdd230-org_large.jpg" media="(max-width: 1500px)">
-                    <img src="images/wdd230-org_large.jpg" alt="Join to Duque de Caxias Chamber" width="1000" height="364">
-                </picture>
-                <div class="hero-content">
-                    <h2>Duque de Caxias Chamber of Commerce</h2>
-                    <p>A place for networking and growth</p>
-                </div>
-            </section>
-
-            <section id="about-us">
-                <h2>About Us</h2>
-
-            </section>
-
-            <section class="weather-info">
-                <h2>Weather in Duque de Caxias</h2>
-                <div class="data-table">
-                    <span class="data-title">Temperature (°F):</span>
-                    <span class="data-value" id="current-temperature">93</span>
-                    <span class="data-title">Conditions:</span>
-                    <span class="data-value">Sunny</span>
-                    <span class="data-title">Wind (mph):</span>
-                    <span class="data-value" id="wind-speed">3</span>
-                    <span class="data-title">Wind Chill (°F):</span>
-                    <span class="data-value" id="wind-chill-value"></span>
-                </div>
-            </section>
-
-            <section class="spotlight">
-                <h2>Business Spotlight</h2>
-
-            </section>
-        </main>
-
-        <footer>
-            <div>
-                <p></p>
-                <p>Diego R. Pina | This is a project for WDD 230</p>
-                <p><span id="lastModified"></span></p>
+<body>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/chamber_logo.webp" alt="Duque de Caxias Chamber of Comerce Logo">
+        </a>
+        <h1>Duque de Caxias Chamber of Commerce</h1>
+        <button id="menu"></button>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+            <div class="dark-mode-toggle">
+                <input type="checkbox" id="dark-mode" class="dark-mode-checkbox">
+                <label for="dark-mode" class="dark-mode-label"></label>
             </div>
-            <div>
-                <p>Contact Us: <a href="mailto:info@info.com">info@info.com</a></p>
-                <p>Follow Us: <a href="#" target="_blank">Facebook</a> | <a href="#" target="_blank">Instagram</a> | <a href="#"
-                    target="_blank">X (Twitter)</a></p>
-            </div>
-        </footer>
+        </nav>
+    </header>
 
-        <script src="scripts/getdates.js"></script>
-        <script src="scripts/hamburger.js"></script>
-        <script src="scripts/darkmode.js"></script>
-        <script src="scripts/windchill.js"></script>
-    </body>
+    <div id="banner" class="banner">
+        <p>Join us for the Chamber of Commerce Meet and Greet on Wednesday at 7:00 p.m.!</p>
+        <button id="close-banner">❌</button>
+    </div>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="images/wdd230-org_small.jpg" media="(max-width: 500px)">
+                <source srcset="images/wdd230-org_medium.jpg" media="(max-width: 1000px)">
+                <source srcset="images/wdd230-org_large.jpg" media="(max-width: 1500px)">
+                <img src="images/wdd230-org_large.jpg" alt="Join to Duque de Caxias Chamber" width="1000" height="364">
+            </picture>
+            <div class="hero-content">
+                <h2>Duque de Caxias Chamber of Commerce</h2>
+                <p>A place for networking and growth</p>
+            </div>
+        </section>
+
+        <section id="about-us">
+            <h2>About Us</h2>
+            <p>In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam id dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Mauris dictum facilisis augue. Fusce tellus. Pellentesque arcu. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Mauris dolor felis, sagittis at, luctus sed, aliquam non, tellus. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu, urna. Nullam at arcu a est sollicitudin euismod. Praesent dapibus. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. Nam sed tellus id magna elementum tincidunt. Morbi leo mi, nonummy eget, tristique non, rhoncus non, leo. Nullam faucibus mi quis velit. Integer in sapien. Fusce tellus odio, dapibus id, fermentum quis, suscipit id, erat. Fusce aliquam vestibulum ipsum. Aliquam erat volutpat. Pellentesque sapien. Cras elementum. Nulla pulvinar eleifend sem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque porta. Vivamus porttitor turpis ac leo.
+
+                Maecenas ipsum velit, consectetuer eu, lobortis ut, dictum at, dui. In rutrum. Sed ac dolor sit amet purus malesuada congue. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Suspendisse sagittis ultrices augue. Mauris metus. Nunc dapibus tortor vel mi dapibus sollicitudin. Etiam posuere lacus quis dolor. Praesent id justo in neque elementum ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. In convallis. Fusce suscipit libero eget elit. Praesent vitae arcu tempor neque lacinia pretium. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus.
+               
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida libero nec velit.</p>
+        </section>
+
+        <section class="weather-info">
+            <h2>Weather in Duque de Caxias</h2>
+            <figure class="weather-figure">
+                <img id="weather-icon" src="images/default-icon.png" alt="Weather icon">
+                <figcaption id="weather-caption"></figcaption>
+            </figure>
+            <div id="forecast">
+                <!-- Forecast populated here -->
+            </div>
+        </section>
+
+        <section class="spotlight">
+            <h2>Business Spotlight</h2>
+
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p></p>
+            <p>Diego R. Pina | This is a project for WDD 230</p>
+            <p><span id="lastModified"></span></p>
+        </div>
+        <div>
+            <p>Contact Us: <a href="mailto:info@info.com">info@info.com</a></p>
+            <p>Follow Us: <a href="#" target="_blank">Facebook</a> | <a href="#" target="_blank">Instagram</a> | <a
+                    href="#" target="_blank">X (Twitter)</a></p>
+        </div>
+    </footer>
+
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/banner.js"></script>
+
+</body>
+
 </html>
