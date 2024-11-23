@@ -67,62 +67,47 @@
             <h2>Join the Chamber of Commerce</h2>
             <form method="get" action="thankyou.html" class="joinForm">
 
-                <fieldset>
-                    <legend>Name</legend>
-                    <label for="firstName">First Name:
-                        <input type="text" id="firstName" name="firstName" required>
-                    </label>
+                <label for="firstName">First Name:
+                    <input type="text" id="firstName" name="firstName" required>
+                </label>
 
-                    <label for="lastName">Last Name:
-                        <input type="text" id="lastName" name="lastName" required>
-                    </label>
-                </fieldset>
+                <label for="lastName">Last Name:
+                    <input type="text" id="lastName" name="lastName" required>
+                </label>
 
-                <fieldset>
-                    <legend>Position</legend>
-                    <label for="title">Title/Position:
-                        <input type="text" id="title" name="title" required pattern="[A-Za-z\s\-]{7,}">
-                    </label>
-                </fieldset>
+                <label for="title">Title/Position:
+                    <input type="text" id="title" name="title" required pattern="[A-Za-z\s\-]{7,}">
+                </label>
 
-                <fieldset>
-                    <legend>Contact Information</legend>
-                    <label for="email">Email:
-                        <input type="email" id="email" name="email" required placeholder="example@domain.com">
-                    </label>
+                <label for="email">Email:
+                    <input type="email" id="email" name="email" required placeholder="example@domain.com">
+                </label>
 
-                    <label for="phone">Mobile Phone:
-                        <input type="tel" id="phone" name="phone" required>
-                    </label>
+                <label for="phone">Mobile Phone:
+                    <input type="tel" id="phone" name="phone" required>
+                </label>
 
-                    <label for="organization">Business/Organization Name:
-                        <input type="text" id="organization" name="organization" required>
-                    </label>
-                </fieldset>
+                <label for="organization">Business/Organization Name:
+                    <input type="text" id="organization" name="organization" required>
+                </label>
 
-                <fieldset>
-                    <legend>Menbership Options</legend>
-                    <label for="membershipLevel">Membership Level:
-                        <select id="membershipLevel" name="membershipLevel" required>
-                            <option value="" disabled selected>Select a Membership Level</option>
-                            <option value="im">Imbariê Membership - No Fee</option>
-                            <option value="gramacho">Gramacho Membership</option>
-                            <option value="saracuruna">Saracuruna Membership</option>
-                            <option value="caxiense">Caxiense Membership</option>
-                        </select>
-                    </label>
-                </fieldset>
+                <label for="membershipLevel">Membership Level:
+                    <select id="membershipLevel" name="membershipLevel" required>
+                        <option value="" disabled selected>Select a Membership Level</option>
+                        <option value="NP">Imbariê Membership - Free</option>
+                        <option value="Bronze">Gramacho Membership</option>
+                        <option value="Silver">Saracuruna Membership</option>
+                        <option value="Gold">Caxiense Membership</option>
+                    </select>
+                </label>
 
-                <fieldset>
-                    <legend>Describe Your Business</legend>
-                    <label for="description">Business/Organization Description:
-                        <textarea id="description" name="description"></textarea>
-                    </label>
+                <label for="description">Business/Organization Description:
+                    <textarea id="description" name="description"></textarea>
+                </label>
+                
+                <input type="hidden" id="timestamp" name="timestamp">
 
-                    <input type="hidden" id="timestamp" name="timestamp">
-                </fieldset>
-
-                <input type="submit" value="Submit Your Application">
+                <button type="submit">Submit Application</button>
             </form>
         </section>
     </main>
