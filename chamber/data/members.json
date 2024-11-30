@@ -1,7 +1,7 @@
 [
     {
         "name": "JR CONTEINER",
-        "address": "Rua do Bosque - Vila Maria Helena ",
+        "address": "Rua do Bosque Quadra 12 Lote 18 - Vila Maria Helena ",
         "phone": "+55 (21) 96468-7915",
         "website": "http://www.jrcontainer.com/",
         "image": "jrconteiner.webp",
@@ -45,13 +45,13 @@
         "description": "Agile Corp is a company that provides specialized services, focusing on excellence and always seeking innovative solutions tailored to the needs of its clients."
     },
     {
-        "name": "BRACCO IMAGING DO BRASIL IMPORTACAO E DISTRIBUICAO DE MEDICAMENTOS",
+        "name": "BRACCO IMAGING DO BRASIL",
         "address": "Avenida Ol 3, 200, Galpaomodulo 03 Galpao 01 - Parque Duque",
         "phone": "+55 (21) 3849-4938",
         "website": "https://www.bracco.com/pt-br",
         "image": "bracco.webp",
         "membershipLevel": "Caxiense",
-        "description": "Bracco's main objective is to develop safe and reliable contrast media; medical substances designed to increase contrast or distinction between the different tissues of the body."
+        "description": "Bracco's main objective is to develop safe and reliable contrast media and medical substances."
     },
     {
         "name": "PLAYVENDER DO BRASIL",
@@ -60,6 +60,6 @@
         "website": "https://www.playvender.com.br/rio-de-janeiro",
         "image": "playvender.webp",
         "membershipLevel": "Saracuruna",
-        "description": "Playvender do Brasil plans to be the most efficient and profitable distributor in the Brazilian market based on the excellence of our services and the effectiveness of our employees."
+        "description": "Playvender do Brasil plans to be the most efficient and profitable distributor in the Brazilian market."
     }
 ]
