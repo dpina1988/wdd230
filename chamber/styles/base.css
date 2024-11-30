@@ -457,6 +457,12 @@ textarea {
     background: #f9f9f9; 
 }
 
+#members, #business-spotlight {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
 #menu::before {
     content: "☰";
     color: #daa520;
