@@ -53,6 +53,11 @@ body.dark-mode .btn:hover {
     color: #1D4D72;
 }
 
+body.dark-mode .member {
+    background: #333; 
+    color: #ffffff; 
+}
+
 body.dark-mode #members.list-view .member:nth-child(odd) {
     background: #444; 
 }
@@ -301,7 +306,7 @@ textarea {
 
 .grid-view {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit,max(200px, 1fr));
     grid-gap: 05px;
     align-items: center;
 }
@@ -364,6 +369,12 @@ textarea {
     width: 150px;  
     height: auto;
     margin-bottom: 1rem;
+}
+
+.member-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .spotlight {

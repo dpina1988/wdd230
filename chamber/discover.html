@@ -54,15 +54,12 @@
             </section>
             <section class="weather-info">
                 <h2>Weather in Duque de Caxias</h2>
-                <div class="data-table">
-                    <span class="data-title">Temperature (°F):</span>
-                    <span class="data-value" id="current-temperature">93</span>
-                    <span class="data-title">Conditions:</span>
-                    <span class="data-value">Sunny</span>
-                    <span class="data-title">Wind (mph):</span>
-                    <span class="data-value" id="wind-speed">3</span>
-                    <span class="data-title">Wind Chill (°F):</span>
-                    <span class="data-value" id="wind-chill-value"></span>
+                <figure class="weather-figure">
+                    <img id="weather-icon" src="images/default-icon.png" alt="Weather icon">
+                    <figcaption id="weather-caption"></figcaption>
+                </figure>
+                <div id="forecast">
+                    <!-- Forecast populated here -->
                 </div>
             </section>
         </aside>
@@ -144,6 +141,6 @@
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/lazyload.js"></script>
     <script src="scripts/localStorage.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>

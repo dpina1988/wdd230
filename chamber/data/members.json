@@ -1,7 +1,7 @@
 [
     {
         "name": "JR CONTEINER",
-        "address": "Rua do Bosque Quadra 12 Lote 18 - Vila Maria Helena ",
+        "address": "Rua do Bosque Quadra 12 Lote 18",
         "phone": "+55 (21) 96468-7915",
         "website": "http://www.jrcontainer.com/",
         "image": "jrconteiner.webp",
@@ -10,7 +10,7 @@
     },
     {
         "name": "NITRIFLEX",
-        "address": "Rua Pastor Manuel Avelino de Souza, 1.300 - Vila Santa Alice",
+        "address": "Rua Pastor Manuel Avelino de Souza, 1.300",
         "phone": "+55 (21) 2128-3400",
         "website": "https://www.nitriflex.com.br/",
         "image": "nitriflex.webp",
@@ -19,7 +19,7 @@
     },
     {
         "name": "LOJAS COMPETIÇÃO",
-        "address": "Rodovia Washington Luiz, 18315, Quadra03 Lote 16/17 - Santa Cruz da Serra",
+        "address": "Rodovia Washington Luiz, 18315, Quadra03 Lote 16/17",
         "phone": "+55 (21) 2645-9700",
         "website": "https://www.lojascompeticao.com.br/",
         "image": "competicao.webp",
@@ -28,7 +28,7 @@
     },
     {
         "name": "PERSONAL SERVICE RECURSOS HUMANOS",
-        "address": "Rua Almirante Grenfall, 405, Bloco 3 Sala 604 - Parque Duque",
+        "address": "Rua Almirante Grenfall, 405, Bloco 3 Sala 604",
         "phone": "+55 (21) 3993-2811",
         "website": "https://www.personalservice.com.br/",
         "image": "personal.webp",
@@ -46,7 +46,7 @@
     },
     {
         "name": "BRACCO IMAGING DO BRASIL",
-        "address": "Avenida Ol 3, 200, Galpaomodulo 03 Galpao 01 - Parque Duque",
+        "address": "Avenida Ol 3, 200, Galpaomodulo 03 Galpao 01",
         "phone": "+55 (21) 3849-4938",
         "website": "https://www.bracco.com/pt-br",
         "image": "bracco.webp",
@@ -55,7 +55,7 @@
     },
     {
         "name": "PLAYVENDER DO BRASIL",
-        "address": "Avenida Ana Dantas, 183, Area 5 A1 Alameda 5 - Mantiquira",
+        "address": "Avenida Ana Dantas, 183, Area 5 A1 Alameda 5",
         "phone": "+55 (21) 3797-7777",
         "website": "https://www.playvender.com.br/rio-de-janeiro",
         "image": "playvender.webp",
