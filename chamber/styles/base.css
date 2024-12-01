@@ -54,8 +54,7 @@ body.dark-mode .btn:hover {
 }
 
 body.dark-mode .member {
-    background: #333; 
-    color: #ffffff; 
+    background: #333;  
 }
 
 body.dark-mode #members.list-view .member:nth-child(odd) {
