@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Honda Metro Scooter",
+        "type": "Scooter",
+        "capacity": 1,
+        "halfDay": 20,
+        "fullDay": 30,
+        "walkInHalfDay": 25,
+        "walkInFullDay": 35,
+        "image": "honda-metro-scooter-small.webp",
+        "alt": "Honda Metropolitan 49cc Scooter"
+    },
+    {
+        "name": "Honda Dio Scooter",
+        "type": "Scooter",
+        "capacity": 2,
+        "halfDay": 30,
+        "fullDay": 40,
+        "walkInHalfDay": 35,
+        "walkInFullDay": 45,
+        "image": "honda-dio-scooter-small.webp",
+        "alt": "Honda Dio 110cc Scooter"
+    },
+    {
+        "name": "Honda PCX150 Scooter",
+        "type": "Scooter",
+        "capacity": 2,
+        "halfDay": 40,
+        "fullDay": 50,
+        "walkInHalfDay": 45,
+        "walkInFullDay": 55,
+        "image": "honda-PCX150-scooter-small.webp",
+        "alt": "Honda PCX150 Scooter"
+    },
+    {
+        "name": "Honda Pioneer ATV",
+        "type": "ATV",
+        "capacity": 4,
+        "halfDay": 50,
+        "fullDay": 70,
+        "walkInHalfDay": 60,
+        "walkInFullDay": 80,
+        "image": "honda-pioneer-ATV-small.webp",
+        "alt": "Honda Pioneer ATV"
+    },
+    {
+        "name": "Jeep Wrangler - 4 door with a/c",
+        "type": "Jeep",
+        "capacity": 5,
+        "halfDay": 70,
+        "fullDay": 100,
+        "walkInHalfDay": 85,
+        "walkInFullDay": 125,
+        "image": "jeep-4-door-small.webp",
+        "alt": "Jeep Wrangler - 4 door with a/c"
+    },
+    {
+        "name": "Jeep Wrangler - 2 door",
+        "type": "Jeep",
+        "capacity": 4,
+        "halfDay": 60,
+        "fullDay": 85,
+        "walkInHalfDay": 70,
+        "walkInFullDay": 90,
+        "image": "jeep-2-door-small.webp",
+        "alt": "Jeep Wrangler - 2 door"
+    }
+]

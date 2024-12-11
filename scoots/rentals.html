@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots - Rent a Scooter, ATV or Jeep</title>
+    
+    <meta name="description" content="Scoots - Your number one choice for motor scooter rentals in Cozumel. Explore Cozumel with our range of scooters and ATVs.">
+    <meta name="author" content="Diego Reis Pina">
+
+    <meta property="og:title" content="Scoots - Motor Scooter Rentals in Cozumel">
+    <meta property="og:description" content="Your number one choice for motor scooter rentals in Cozumel. Explore Cozumel with our range of scooters and ATVs.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://github.com/dpina1988/scoots/images/scoots.jpg">
+    <meta property="og:url" content="https://github.com/dpina1988/scoots">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <picture>
+            <source srcset="images/logo-scoots.png" type="image/webp">
+            <img src="images/logo-scoots.png" alt="Scoots Logo">  
+        </picture>
+        <button id="menu"></button>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rentals.html" class="active">Rentals</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="http://www.facebook.com" target="_blank">
+                        <img src="images/facebook.png" alt="Scoots facebook page" width="48" height="49">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="subpage-main">
+        <section class="subpage-title">
+            <h1>Rentals</h1>
+            <hr>
+            <p>Choose from our selection of scooters, ATVs, and Jeeps to explore Cozumel.</p>
+        </section>
+        <section>
+            <h2 id="scooter">Scooters</h2>
+            <p>Our scooters are perfect for exploring the island. They are easy to ride and park, and they are great for getting around town.</p>
+            <div id="scooters"></div>
+        </section>
+        <section>
+            <h2 id="atv">ATVs</h2>
+            <p>Our ATVs are perfect for off-road adventures. They are great for exploring the island's rugged terrain.</p>
+            <div id="atvs"></div>
+        </section>
+        <section>
+            <h2 id="jeep">Jeeps</h2>
+            <p>Our Jeeps are perfect for exploring the island. They are great for getting around town and for off-road adventures.</p>
+            <div id="jeeps"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Scoots</p>
+    </footer>
+    <script src="scripts/lazyload.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/rentals.js"></script>
+</body>
+</html>

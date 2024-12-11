@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots - Rental Options in Cozumel</title>
+
+    <meta name="description" content="Explore Scoots' diverse rental options in Cozumel. Choose from scooters, ATVs, and Jeeps to suit your adventure needs.">
+    <meta name="author" content="Diego Reis Pina">
+
+    <meta property="og:title" content="Scoots - Rental Options in Cozumel">
+    <meta property="og:description" content="Explore Scoots' diverse rental options in Cozumel. Choose from scooters, ATVs, and Jeeps to suit your adventure needs.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://github.com/dpina1988/scoots/images/scoots.jpg">
+    <meta property="og:url" content="https://github.com/dpina1988/scoots/rentals.html">
+
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <source srcset="images/logo-scoots.png" type="image/webp">
+            <img src="images/logo-scoots.png" alt="Scoots Logo">
+        </picture>
+        <button id="menu"></button>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="http://www.facebook.com" target="_blank">
+                        <img src="images/facebook.png" alt="Scoots facebook page" width="48" height="48">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="banner" class="banner">
+            <p id="high-temp-message"></p>
+            <button id="close-banner">❌</button>
+        </section>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Discover Cozumel with Scoots</h1>
+                <p>Your adventure starts here! Rent a motor scooter, jeep, or ATV and explore the beautiful island of
+                    Cozumel.</p>
+                <button class="cta-button" id="rent-now-button">Rent Now</button>
+            </div>
+        </section>
+        <section class="welcome-section">
+            <h2>Welcome to Scoots</h2>
+            <hr>
+            <p>Your number one choice for motor scooter rentals in Cozumel.</p>
+            <p>Discover the beauty of Cozumel with Scoots. Our friendly team and top-quality rentals make exploring the
+                island easy and fun.</p>
+            <p>With convenient locations near the Playa del Carmen-Cozumel Ferry dock and Terminal Puerta Maya, we are
+                always ready to serve you.</p>
+        </section>
+        <section class="rentals-section">
+            <h2>Our Rental Options</h2>
+            <div class="rentals-container">
+                <div class="rental-card">
+                    <picture>
+                        <source srcset="images/honda-dio-scooter-small.webp" media="(max-width: 1700px)"
+                            Type="image/webp">
+                        <source srcset="images/honda-dio-scooter.webp" media="(min-width: 1700px)" Type="image/webp">
+                        <img src="images/honda-dio-scooter.jpg" alt="Scooter Image" loading="lazy">
+                    </picture>
+                    <div class="rental-content">
+                        <h3>Scooters</h3>
+                        <p>Explore Cozumel on our stylish and efficient scooters. Perfect for solo or duo adventures
+                            around the island.</p>
+                        <a href="rentals.html#scooter" class="learn-more">See Options</a>
+                    </div>
+                </div>
+                <div class="rental-card">
+                    <picture>
+                        <source srcset="images/honda-pioneer-ATV-small.webp" media="(max-width: 1700px)"
+                            Type="image/webp">
+                        <source srcset="images/honda-pioneer-ATV.webp" media="(min-width: 1700px)" Type="image/webp">
+                        <img src="images/honda-pioneer-ATV.jpg" alt="ATV Image" loading="lazy">
+                    </picture>
+                    <div class="rental-content">
+                        <h3>ATVs</h3>
+                        <p>Get ready for some off-road fun with our rugged and powerful ATVs. Ideal for thrill-seekers
+                            and adventure lovers.</p>
+                        <a href="rentals.html#atv" class="learn-more">See Options</a>
+                    </div>
+                </div>
+                <div class="rental-card">
+                    <picture>
+                        <source srcset="images/jeep-2-door-small.webp" media="(max-width: 1700px)" Type="image/webp">
+                        <source srcset="images/jeep-2-door.webp" media="(min-width: 1700px)" Type="image/webp">
+                        <img src="images/jeep-2-door.jpg" alt="Jeep Image" loading="lazy">
+                    </picture>
+                    <div class="rental-content">
+                        <h3>Jeeps</h3>
+                        <p>Discover Cozumel in comfort and style with our versatile Jeeps. Great for families and groups
+                            looking to explore together.</p>
+                        <a href="rentals.html#jeep" class="learn-more">See Options</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="weather">
+            <div id="current-weather"></div>
+            <div id="forecast-weather"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Scoots</p>
+    </footer>
+    <script src="scripts/lazyload.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/banner.js"></script>
+    <script src="scripts/hero.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
+
+</html>
